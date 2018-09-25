@@ -1,7 +1,7 @@
 {
   "name": "grpc-client",
   "version": "0.1.0",
-  "description": "client cli to call gRPC endpoints",
+  "description": "client client to call gRPC endpoints",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
