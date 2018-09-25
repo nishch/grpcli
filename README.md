@@ -1,4 +1,4 @@
-## grpc-client
+## grpcx
 
 A command line tool which can be used to test gRPC api endpoints. 
 
