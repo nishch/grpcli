@@ -6,7 +6,7 @@ This tool cab be used either as gRPC client or for the basic load testing of the
 
 ### How to use?
 ``` sh
-Usage: grpc-client [options]
+Usage: grpcli [options]
 
 Options:
 
@@ -71,7 +71,7 @@ Options:
   In the context of above proto file, if we want to call `sayHello`, we can run following command:
 
   ``` sh
-    grpc-client -e localhost:7071 -s helloworld.Greeter -m sayHello -p <path of proto files>/hello.proto -d <path of data file>/data.json
+    grpcli -e localhost:7071 -s helloworld.Greeter -m sayHello -p <path of proto files>/hello.proto -d <path of data file>/data.json
   ```
 
 ### Output and Logs
