@@ -12,6 +12,7 @@
     "grpc load test"
   ],
   "directories": {
+    "example": "example",
     "lib": "lib"
   },
   "scripts": {
@@ -33,5 +34,13 @@
   "devDependencies": {
     "debug": "^4.0.1",
     "eslint": "^5.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishch/grpcli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nishch/grpcli/issues"
+  },
+  "homepage": "https://github.com/nishch/grpcli#readme"
 }
