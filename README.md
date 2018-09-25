@@ -3,10 +3,12 @@
 A command line tool which can be used to test gRPC api endpoints. 
 
 This tool cab be used either as gRPC client or for the basic load testing of the gRPC apis.
+### Installation
 
-### How to use?
+
+### Usage
 ``` sh
-Usage: grpcli [options]
+Usage: grpcx [options]
 
 Options:
 
@@ -71,7 +73,7 @@ Options:
   In the context of above proto file, if we want to call `sayHello`, we can run following command:
 
   ``` sh
-    grpcli -e localhost:7071 -s helloworld.Greeter -m sayHello -p <path of proto files>/hello.proto -d <path of data file>/data.json
+    grpcx -e localhost:7071 -s helloworld.Greeter -m sayHello -p <path of proto files>/hello.proto -d <path of data file>/data.json
   ```
 
 ### Output and Logs

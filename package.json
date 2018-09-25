@@ -1,10 +1,11 @@
 {
-  "name": "grpcli",
-  "version": "0.1.0",
+  "name": "grpcx",
+  "version": "0.2.0",
   "description": "cli tool to test and explore gRPC service endpoints",
   "main": "lib/index.js",
   "keywords": [
     "grpc",
+    "grpcx",
     "grpc client",
     "grpc-cli",
     "grpc-client",
@@ -19,7 +20,7 @@
     "lint": "eslint ."
   },
   "bin": {
-    "grpcli": "./bin/index.js"
+    "grpcx": "./bin/index.js"
   },
   "author": "nishant chaturvedi",
   "license": "ISC",
