@@ -12,7 +12,7 @@ program
     .option("-d, --dataFile [dataFile]", "(optional) path of the json file which has the request payload defined")
     .option("-n, --number [number]", "(optional) number of times request should be made", 1)
     .option("-w, --wait [wait]", "(optional) minimum wait time between 2 requests in milliseconds", 0)
-    //.option("-t, --timeout [timeout]", "max number of milliseconds to wait for the response")
+    .option("-t, --timeout [timeout]", "max number of milliseconds to wait for the response", 30000)
     .option("-r, --protoRoot [protoRoot]", "(optional)comma separated directories where protocol buffer files are present")
     .parse(process.argv);
 
